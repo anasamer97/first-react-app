@@ -7,8 +7,9 @@ import Footer from './Components/Footer/Footer'
 import About from './Components/About/About'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
+
 
 
 {/* <BasicExample /> */ }
@@ -18,7 +19,7 @@ import Layout from './Components/Layout/Layout'
 {/* <Footer /> */ }
 {/* <Home /> */ }
 
-let x = createBrowserRouter(
+let x = createHashRouter(
   [
     {
       path: "", element: <Layout />, children: [
