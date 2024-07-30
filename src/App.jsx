@@ -22,7 +22,7 @@ import Layout from './Components/Layout/Layout'
 let x = createHashRouter(
   [
     {
-      path: "", element: <Layout />, children: [
+      path: "/", element: <Layout />, children: [
         { index: true, element: <Home /> },
         { path: "home", element: <Home /> },
         { path: "about", element: <About /> },
