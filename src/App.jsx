@@ -23,10 +23,10 @@ let x = createBrowserRouter(
     {
       path: "", element: <Layout />, children: [
         { index: true, element: <Home /> },
-        { path: "home", element: <Home /> },
-        { path: "about", element: <About /> },
-        { path: "contact", element: <Contact /> },
-        { path: "portfolio", element: <Portfolio /> }
+        { path: "react-project-1/home", element: <Home /> },
+        { path: "react-project-1/about", element: <About /> },
+        { path: "react-project-1/contact", element: <Contact /> },
+        { path: "react-project-1/portfolio", element: <Portfolio /> }
       ]
     }
   ]
