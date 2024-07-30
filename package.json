@@ -2,7 +2,7 @@
   "name": "task-1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://anasamer97.github.io/react-project-1",
+  "homepage": "https://anasamer97.github.io/reactapp1",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <Navbar expand="lg" className={`${style.navbarstyling} p-3 fw-bold text-uppercase`} >
             <Container>
-                <Navbar.Brand className='fs-3'> <Link className='text-decoration-none text-white' to="react-project-1/home">Start Framework</Link> </Navbar.Brand>
+                <Navbar.Brand className='fs-3'> <Link className='text-decoration-none text-white' to="home">Start Framework</Link> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
@@ -22,9 +22,9 @@ export default function Header() {
                         {/* <li><Link to="contact">Portfolio</Link></li> */}
                         {/* <li><Link to="home">Portfolio</Link></li> */}
 
-                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white' to="react-project-1/about" >About</NavLink>  </Nav.Link>
-                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white ' to="react-project-1/portfolio" >Portfolio</NavLink>  </Nav.Link>
-                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white ' to="react-project-1/contact" >Contact</NavLink>  </Nav.Link>
+                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white' to="about" >About</NavLink>  </Nav.Link>
+                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white ' to="portfolio" >Portfolio</NavLink>  </Nav.Link>
+                        <Nav.Link className='mx-4'> <NavLink className='text-decoration-none text-white ' to="contact" >Contact</NavLink>  </Nav.Link>
 
 
                     </Nav>
